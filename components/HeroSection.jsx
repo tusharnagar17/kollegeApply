@@ -62,7 +62,7 @@ const HeroSection = () => {
 }
 
 const Trending = ({news, link}) => {
-  return <div className='max-w-2xl flex gap-2 justify-between border-[1.5px] border-violet-400 bg-violet-50 rounded-lg p-2 text-sm'>
+  return <div className='max-w-2xl flex px-2 gap-2 justify-between border-[1.5px] border-violet-400 bg-violet-50 rounded-lg p-2 text-sm'>
     <div className='flex items-center gap-1 flex-wrap '>
    
     <div className='font-semibold flex items-center'>
