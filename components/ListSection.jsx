@@ -39,11 +39,11 @@ const Data = [
 const ListSection = () => {
     const [options, setOptions] = useState('Admission 2024')
     return (
-    <div className='bg-violet-50 py-6 '>
+    <div className='bg-violet-50  py-1 md:py-6 '>
       <div className='max-w-7xl mx-auto'>
 
-        <div className='flex items-center justify-around bg-white py-2 px-10 my-6
-        w-1/2 mx-auto rounded-xl'>
+        <div className='flex items-center flex-wrap justify-around bg-white py-2 px-10 my-2 md:my-6
+        md:w-1/2 mx-auto text-sm md:text-md rounded-xl'>
           {List.map((item, index)=> {
             return <div onClick={()=>{setOptions(item)}} className={`font-semibold ${options == item ? 'text-violet-600 underline outline-offset-4 font-bold': ''}`} key={index}>{item}</div>
           })}

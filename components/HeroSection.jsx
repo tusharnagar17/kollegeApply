@@ -53,7 +53,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className='md:w-1/3 my-2 p-2'>
-          <SideBar />
+          <SideBar showList={true} />
         </div>
         </div>
       </div>
