@@ -1,13 +1,15 @@
 import React from 'react'
 import NavBar from '@/components/NavBar'
 import HeroSection from '@/components/HeroSection'
-import LastSection from '@/components/LastSection'
+import ListSection from '@/components/ListSection'
+
 
 const HomePage = () => {
 
   return (
     <div>
-      <NavBar />
+      <HeroSection />
+      <ListSection />      
     </div>
   )
 }
